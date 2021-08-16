@@ -79,6 +79,7 @@ function draw() {
 }
 
 function keyPressed() {
-	
+if(keyCode===UP_ARROW){
+	Mater.Body.applyForce(bob1,bob1.position,{x:-50,y:-45})
 }
-
+}
